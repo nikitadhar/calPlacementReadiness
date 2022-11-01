@@ -1,0 +1,24 @@
+#container{
+    justify-items: center;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+button{
+    width: 60px;
+    height: 50px;
+    font-size: 15px;
+    background-color: rgb(153, 153, 177);
+}
+#sub-container{
+display:grid;
+grid-template-columns: repeat(4,50px);
+      grid-template-rows: minmax(2px,auto);
+    margin: auto;}
+
+#screen{
+    border: 2px solid black;
+    width: 205px;
+    height: 30px;
+    border-radius: 3px;
+}
+ 
